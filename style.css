@@ -1,0 +1,16 @@
+img{
+    width:250px;
+    height:250px;
+    background-color: red;
+    animation-name:anime;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    position:relative;
+}
+@keyframes anime{
+    30%{left:0px;top:0px;}
+    60%{left:200px;top:0px;}
+    80%{left:200px;top:200px;}
+    90%{left:0px;top:200px;}
+    100%{left:0px;top:0px;}
+}
